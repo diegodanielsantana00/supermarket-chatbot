@@ -16,10 +16,10 @@ module.exports = {
         BACK: "Informe #️⃣ para voltar ao menu anterior.",
     },
     SUPERMARKET_ADDRESS: {
-       ADDRESS : "👩🏼‍💼 *Nosso endereço* - \n\n 🛒 *Supermercado GMAIS (DOM HELDER)* \nR. Manoel Botelho de Oliveira, 40 - Zumbi do Pacheco, Jaboatão dos Guararapes - PE, 54230-285",
+       ADDRESS : "👩🏼‍💼 *Nosso endereço* - \n\n 🛒 *Supermercado (DOM HELDER)* \nR. Teste, 340 - Bairro, Cidade - UF.., 11111-111",
        
     },
-    SCHEDULE: "👩🏼‍💼 *Nosso Horário de fucionamento*\n\n🕖 *Grupo Supermercado GMAIS*\n\nSegunda a Sábado das 7:00h às 21hh\nDomingos e Feriados das 7:00h as 19:00h",
+    SCHEDULE: "👩🏼‍💼 *Nosso Horário de fucionamento*\n\n🕖 *Grupo Supermercado*\n\nSegunda a Sábado das 7:00h às 21hh\nDomingos e Feriados das 7:00h as 19:00h",
     MENU: "Por favor digite um *NÚMERO* da opção desejada\n\n1️⃣ Fazer um pedido\n2️⃣ Horário de funcionamento\n3️⃣ Nossos endereços\n4️⃣ Perguntas frequentes\n5️⃣ Promoções do dia\n6️⃣ Falar com um atendente",
     SHOPPING_LIST: {
         ASK: '⚠️ *Atenção:* \n\n⚠️ Deve conter a *Quantidade*, *Marca*  e a *Gramatura* do produto.\nPor *EXEMPLO*; \n\n2 Arroz Tio João 1kg\n500g de Cebola Média\n\n⚠️ *Pedidos após 16h, será enviado no próximo dia útil e Sábado.*\n*Pedido mínimo de R$50,00*',
@@ -28,7 +28,7 @@ module.exports = {
         CONFIRM: "Digite o próximo produto da sua lista ou *DIGITE* o número de uma das opções\n\n1️⃣ Confirmar lista \n2️⃣ Cancelar o pedido",
     },
     WITHDRAWAL: "👩🏼‍💼 Por favor, escolha uma opção de entrega.\n\n1️⃣ Entrega em Domicílio \n2️⃣ Retirada no Estabelecimento\n3️⃣ Cancelar o seu pedido",
-    WELCOME: "\n\nBem vindo ao delivery 🚚 do *Supermercado GMAIS*. Sou sua assistente virtual. 📦 ",
+    WELCOME: "\n\nBem vindo ao delivery 🚚 do *Supermercado*. Sou sua assistente virtual. 📦 ",
     ERROFILE: "❌ Infelizmente\nNão trabalhamos com arquivos, apenas menssagem de texto\n\n↩️ Tente novamente",
     CALL_MSG: "👩🏼‍💼 Desculpe \n Mais não atendemos ligações\n\n🖊️ Por favor nós mande uma mensagem de texto",
     ASK_ADDRESS: {

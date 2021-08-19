@@ -8,7 +8,7 @@ module.exports.sendContacts = async function (client, user, name) {
   )
 
   await client
-  .sendContactVcard(user, '558196695826@c.us', 'Suporte para Clientes GMAIS')
+  .sendContactVcard(user, '55819999999@c.us', 'Suporte para Clientes')
   
 
   await client.sendText(

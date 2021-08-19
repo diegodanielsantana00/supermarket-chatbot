@@ -10,8 +10,8 @@ module.exports.sendContactsNotMenu = async function (client, user, name) {
   await client
   .sendContactVcard(
     user, 
-    '558196695826@c.us', 
-    'Suporte para Clientes GMAIS'
+    '558199999999@c.us', 
+    'Suporte para Clientes'
   )
   
 

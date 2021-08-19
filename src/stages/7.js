@@ -26,7 +26,7 @@ function execute(user, msg, name, client) {
     control(client, user, name, msg); 
     //////////////////////////////////////////////
     setTimeout(function() {
-    escpos.Image.load(__dirname + '/../asserts/img/GMAIS.png', function (image) {
+    escpos.Image.load(__dirname + '/../asserts/img/Logo.png', function (image) {
       device.open(function(error){
         printer
         .align('CT')
@@ -48,7 +48,7 @@ function execute(user, msg, name, client) {
         "\n Falta de Item: " + banco.db[user].faltaitens +
          "\n\n----------- ENDEREÇO -----------\n\n" + banco.db[user].enderecoimpressao
           + "\n\n------- LISTA DE COMPRAS ------- \n\n" + banco.db[user].listaDeCompras + "\n " , 860) 
-        .qrimage("https://api.whatsapp.com/send?phone=" + user.slice(0, -5) + "&text=Ol%C3%A1%20Sou%20o%20separador%20de%20compras%20do%20Supermercado%20GMAISS%2C%20Irei%20separar%20suas%20compras%2C%20qualquer%20duvida%20ou%20adicional%20%C3%A9%20s%C3%B3%20falar%20por%20aqui%2C%20irei%20lhe%20informa%20o%20pre%C3%A7o%20final%20assim%20que%20passar%20suas%20compras%20no%20caixa", { type: 'png', mode: 'dhdw', size: 2, margin: 32 }, function(err){
+        .qrimage("https://api.whatsapp.com/send?phone=" + user.slice(0, -5) + "&text=Ol%C3%A1%20Sou%20o%20separador%20de%20compras%20do%20Supermercado%2C%20Irei%20separar%20suas%20compras%2C%20qualquer%20duvida%20ou%20adicional%20%C3%A9%20s%C3%B3%20falar%20por%20aqui%2C%20irei%20lhe%20informa%20o%20pre%C3%A7o%20final%20assim%20que%20passar%20suas%20compras%20no%20caixa", { type: 'png', mode: 'dhdw', size: 2, margin: 32 }, function(err){
           this.cut();
           this.close();
           device.on('close', function () {}); 
